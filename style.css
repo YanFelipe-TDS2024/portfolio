@@ -1,0 +1,123 @@
+
+body {
+    background-color: #091929;
+}
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+
+    list-style-type: none;
+    background-color: #123458;
+    justify-content: left;
+
+    width: fit-content;
+    padding-right: 30px;
+    border-radius: 15px;
+}
+
+.menu-principal li {
+    margin-right: 10px;        
+}
+
+.menu-principal li a {
+    text-decoration: none;
+    color: #F1EFEC;
+    padding: 10px;
+    display: block;
+    transition: all 0.5s ease;
+
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+}
+
+.menu-principal li a:hover {
+    background-color: #D4C9BE;
+    color: #123458;
+}
+
+.titulo-pagina {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+
+    padding: 5px;
+
+    color: #8eabc9;
+}
+
+.introducao-pagina {
+    display: flex;
+    flex-direction: row;
+   
+    width: 500px;
+
+    background-color: #123458;
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+
+.introducao-pagina p {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    text-align: left;
+    padding: 5px;
+    
+    color: white;
+}
+
+.introducao-pagina img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.projetos-tabela {
+    display: grid;
+    flex-direction: row;
+   
+    padding: 10px;
+}
+
+.projetos-tabela ul {
+    display: flex;
+    flex-direction: row;
+
+    width: 500px;
+
+    list-style-type: none;
+    justify-content: center;
+    
+    padding-left: 0px;
+
+}
+
+.projetos-tabela ul li {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #123458;
+    border-radius: 15px;
+    width: fit-content;
+    transition: all 0.5s ease;
+
+    margin-right: 10px;
+}
+
+.projetos-tabela ul li:hover {
+    background-color: #7377c0;
+    
+}
+
+.projetos-tabela ul li h2 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 200;
+    text-align: center;
+    
+    color: white;
+}
+
+.projetos-tabela ul li img {
+    width: 100px;
+    padding:15px;
+    padding-top:0px;
+}
